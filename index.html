@@ -170,17 +170,10 @@
 </html>
 <script>
     function onload(){
-        var randcolor = Math.floor(Math.random() * 11) + 1;
-        if(randcolor === 1) document.querySelector('body').style.cssText = "background: #13f0a8;background: -webkit-linear-gradient(to right, #12FFF7, #13f0a8);background: linear-gradient(to right, #12FFF7, #13f0a8);"
-        else if(randcolor === 2) document.querySelector('body').style.cssText = "background: #1D2671;background: -webkit-linear-gradient(to right, #C33764, #1D2671);background: linear-gradient(to right, #C33764, #1D2671);"
-        else if(randcolor === 3) document.querySelector('body').style.cssText = "background: #B06AB3;background: -webkit-linear-gradient(to right, #4568DC, #B06AB3);background: linear-gradient(to right, #4568DC, #B06AB3);"
-        else if(randcolor === 4) document.querySelector('body').style.cssText = "background: #237A57;background: -webkit-linear-gradient(to right, #4568DC, #237A57);background: linear-gradient(to right, #4568DC, #237A57);"
-        else if(randcolor === 5) document.querySelector('body').style.cssText = "background: #ffc3a0;background: -webkit-linear-gradient(to right, #4568DC, #ffc3a0);background: linear-gradient(to right, #4568DC, #ffc3a0);"
-        else if(randcolor === 6) document.querySelector('body').style.cssText = "background: #1cefff;background: -webkit-linear-gradient(to right, #c0c0aa, #1cefff);background: linear-gradient(to right, #c0c0aa, #1cefff);"
-        else if(randcolor === 7) document.querySelector('body').style.cssText = "background: #3B4371;background: -webkit-linear-gradient(to right, #F3904F, #3B4371);background: linear-gradient(to right, #F3904F, #3B4371);"
-        else if(randcolor === 8) document.querySelector('body').style.cssText = "background: #ff6a00;background: -webkit-linear-gradient(to right, #ee0979, #ff6a00);background: linear-gradient(to right, #ee0979, #ff6a00);"
-        else if(randcolor === 9) document.querySelector('body').style.cssText = "background: #f4c4f3;background: -webkit-linear-gradient(to right, #f4c4f3, #f4c4f3);background: linear-gradient(to right, #f4c4f3, #f4c4f3);"
-        else if(randcolor === 10) document.querySelector('body').style.cssText = "background: #2657eb;background: -webkit-linear-gradient(to right, #de6161, #2657eb);background: linear-gradient(to right,  #de6161, #2657eb);"
-        else if(randcolor === 11) document.querySelector('body').style.cssText = "background: #89fffd;background: -webkit-linear-gradient(to right,  #ef32d9, #89fffd);background: linear-gradient(to right,  #ef32d9, #89fffd);"
+        var gradi = Math.floor(Math.random()*16777215).toString(16);
+        var gradj = Math.floor(Math.random()*16777215).toString(16);
+        console.log(gradi, gradj)
+        document.querySelector("body").style.cssText = `background: linear-gradient(to right, #${gradi}, #${gradj});`
+
     }
 </script>
