@@ -16,14 +16,22 @@
         body{
             font-family: 'Nanum Gothic', sans-serif;
         }
+        #progress-indicator {
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            height: 10px; 
+            width: 0%; 
+        }
     </style>
 </head>
 <body onload = "onload();">
     <div style = "position: fixed; top: 0; left: 0; right: 0; z-index: -1;"> 
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
         <p id = "maintxt" class = "center xx-large white blurshadow-grey">Welcome to <d class = "bold">potato's-dev</d></p><br>
         <p id = "maintxt" class = "center xx-large white">꿈을 현실로 만듭니다.</d></p>
         <br><br><br><br><br><br><br><br><br><br>
+        <p id = "colorinfo" class = "idescription white center">색정보</p>
         <p class = "idescription white center">더 이상의 시간낭비는 없습니다. 스크롤해서 더 많은 정보를 알아보세요. <br><br><i class="center fas fa-mouse white xx-large"></i></p>
         <br><br><br>
         <br><br><br>
@@ -32,12 +40,12 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <main class = "box-whitesmoke center fill">
+    <main class = "box-whitesmoke center container fill">
         <br><br><br><br><br>
 
         <div class = "intro shadow-grey">About Me</div>
         <br><hr><br>
-        <div class = "idescription">15살 개발자를 꿈꾸고 있는 학생입니다. <br>저는 많은 것을 경험하고 배우는 것을 좋아합니다. <br>"최고" 보다는 "최선", "결과" 보다는 "과정"을 보여주겠습니다.<br>행신중학교 재학중 / 학번: 20611</div>
+        <div class = "idescription">15살 개발자를 꿈꾸고 있는 학생입니다. <br>저는 많은 것을 경험하고 배우는 것을 좋아합니다. <br>"최고" 보다는 "최선", "결과" 보다는 "과정"을 보여주겠습니다.</div>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         <div class = "intro shadow-grey">Skills</div>
@@ -212,12 +220,25 @@
 </body>
 </html>
 <script type="text/javascript" src="http://jsgetip.appspot.com"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
     console.log(ip());
+    var gradi = Math.floor(Math.random()*16777215).toString(16);
+    var gradj = Math.floor(Math.random()*16777215).toString(16);
+
     function onload(){
-        var gradi = Math.floor(Math.random()*16777215).toString(16);
-        var gradj = Math.floor(Math.random()*16777215).toString(16);
         document.querySelector("body").style.cssText = `background: linear-gradient(to right, #${gradi}, #${gradj});`
         document.querySelector("main").style.cssText = `opacity: 1;`;
     }
+    var ind = Math.floor(Math.random()*16777215).toString(16);
+
+    var progressIndicator = '<div id = "progress-indicator"></div>';
+    $('body').append(progressIndicator);
+    $("#progress-indicator").css("background-color", `#${ind}`);
+    $(window).on('scroll', function(){
+        var currentPercentage = ($(window).scrollTop() / ($(document).outerHeight() - $(window).height())) * 100;
+        $('#progress-indicator').width(currentPercentage+'%');
+    });
+
+    $("#colorinfo").html(`배경색(그라데이션): #${gradi}-#${gradj} / 진행바 색: #${ind}`);
 </script>
