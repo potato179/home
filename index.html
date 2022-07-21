@@ -20,18 +20,37 @@
                 width: 100%; 
                 height: 100%;
             }
+
+            #intro{
+                position: fixed; 
+                top: 0; 
+                left: 0; 
+                right: 0; 
+                height: 100%; 
+                z-index: -9999;
+                background-image: url("./public/img/background.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #main{
+                margin-top: 100%;
+                height: 100%; 
+                z-index: 1;
+                background-color: #010D26;
+            }
         </style>
     </head>
     <body>
-        <div class = "box-floralwhite" style = "height: 100%;">
+        <div id = "intro">
             <br><br><br>
             <div class = "container">
-                <h1>빛나는 내일을 위해.</h1>
-                <h1 class = "bold">학생 개발자 홍은표입니다.</h1>
+                <h1 class = "white">반갑습니다.</h1>
+                <h1 class = "white bold">학생 개발자 홍은표입니다.</h1>
             </div>
         </div>
-        <div class = "box-floralwhite" style = "height: 100%;">
-            dasfojna<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id = "main">
+            dasfojna
         </div>
     </body>
 </html>
