@@ -6,73 +6,10 @@
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel = "stylesheet" integrity = "sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin = "anonymous">
         <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity = "sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin = "anonymous"></script>
         <link href = "/docs/5.2/dist/css/bootstrap.min.css" rel = "stylesheet" integrity = "sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin = "anonymous">
-        <meta name = "theme-color" content = "#4FAF5A">
+        <meta name = "threme-color" content = "#4FAF5A">
         <script src = "https://kit.fontawesome.com/06fb83cb17.js" crossorigin = "anonymous"></script>      
         <link rel = "stylesheet" href = "https://potato179.github.io/style/potato-min.css">
-        <style>
-            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-
-            * { 
-                font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-            }
-
-            html, body{
-                width: 100%; 
-                height: 100%;
-            }
-
-            #intro{
-                position: fixed; 
-                top: 0; 
-                left: 0; 
-                right: 0; 
-                height: 100%; 
-                z-index: -9999;
-                background-image: url("./public/img/background.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                color: white;
-            }
-
-            #main1{
-                margin-top: 100%;
-                height: 100%; 
-                z-index: 1;
-                background-color: #010D26;
-                color: white;
-            }
-
-            #main2{
-                height: 100%; 
-                z-index: 1;
-                background-color: #8C7672;
-                color: white;
-            }
-
-            #main3{
-                height: 100%; 
-                z-index: 1;
-                background-color: #A68263;
-                color: white;
-            }
-
-            #main4{
-                height: 100%; 
-                z-index: 1;
-                background-color: #D9A86C;
-                color: white;
-            }
-
-            #main5{
-                z-index: 1;
-                background-color: #639AA6;
-                color: white;
-            }
-
-            #skills{
-                margin-left: 0.5em;
-            }
-        </style>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <div id = "intro">
@@ -163,68 +100,68 @@
                 <br><br>
                 <div style = "float: left; width: 50%;">
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">Language</p> 
-                        <img id = "skills" src="./public/img/icon_html.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_css.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_javascript.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_sass.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_c.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_cpp.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_python.png" style = "width: 3em;">
+                        <p class = "skillstitle">Language</p> 
+                        <img class = "skills" src="./public/img/icon_html.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_css.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_javascript.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_sass.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_c.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_cpp.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_python.png" style = "width: 3rem;">
                     </div><br>
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">Framework</p> 
-                        <img id = "skills" src="./public/img/icon_nodejs.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_jquery.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_bootstrap.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_expressjs.png" style = "width: 3em;">
+                        <p class = "skillstitle">Framework</p> 
+                        <img class = "skills" src="./public/img/icon_nodejs.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_jquery.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_bootstrap.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_expressjs.png" style = "width: 3rem;">
                     </div><br>
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">Platform</p> 
-                        <img id = "skills" src="./public/img/icon_arduino.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_raspberry.png" style = "width: 3em;">   
+                        <p class = "skillstitle">Platform</p> 
+                        <img class = "skills" src="./public/img/icon_arduino.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_raspberry.png" style = "width: 3rem;">   
                     </div><br>
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">Database</p> 
-                        <img id = "skills" src="./public/img/icon_mysql.png" style = "width: 3em;">
+                        <p class = "skillstitle">Database</p> 
+                        <img class = "skills" src="./public/img/icon_mysql.png" style = "width: 3rem;">
                     </div><br>
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">CI/CD</p> 
-                        <img id = "skills" src="./public/img/icon_git.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_github.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_cloudflare.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_aws.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_cafe24.png" style = "width: 3em;">
+                        <p class = "skillstitle">CI/CD</p> 
+                        <img class = "skills" src="./public/img/icon_git.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_github.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_cloudflare.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_aws.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_cafe24.png" style = "width: 3rem;">
                     </div><br>
                 </div>
                 <div style = "float: left; width: 50%;">
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">OS</p> 
-                        <img id = "skills" src="./public/img/icon_xnu.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_android.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_ubuntu.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_debian.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_arch.png" style = "width: 3em;">
+                        <p class = "skillstitle">OS</p> 
+                        <img class = "skills" src="./public/img/icon_xnu.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_android.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_ubuntu.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_debian.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_arch.png" style = "width: 3rem;">
                     </div><br>
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">IDE</p> 
-                        <img id = "skills" src="./public/img/icon_vscode.jpg" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_xcode.jpg" style = "width: 3em;">
+                        <p class = "skillstitle">IDE</p> 
+                        <img class = "skills" src="./public/img/icon_vscode.jpg" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_xcode.jpg" style = "width: 3rem;">
                     </div><br>
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">Tools</p> 
-                        <img id = "skills" src="./public/img/icon_lightroom.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_premiere-pro.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_xd.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_figma.png" style = "width: 3em;">
+                        <p class = "skillstitle">Tools</p> 
+                        <img class = "skills" src="./public/img/icon_lightroom.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_premiere-pro.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_xd.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_figma.png" style = "width: 3rem;">
                     </div><br>
                     <div>
-                        <p style = "float: left; text-align: right; width: 5em; height: 3em;">Social</p> 
-                        <img id = "skills" src="./public/img/icon_notion.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_instagram.png" style = "width: 3em;">   
-                        <img id = "skills" src="./public/img/icon_discord.png" style = "width: 3em;">   
-                        <img id = "skills" src="./public/img/icon_facebook.png" style = "width: 3em;">
-                        <img id = "skills" src="./public/img/icon_slack.png" style = "width: 3em;">      
+                        <p class = "skillstitle">Social</p> 
+                        <img class = "skills" src="./public/img/icon_notion.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_instagram.png" style = "width: 3rem;">   
+                        <img class = "skills" src="./public/img/icon_discord.png" style = "width: 3rem;">   
+                        <img class = "skills" src="./public/img/icon_facebook.png" style = "width: 3rem;">
+                        <img class = "skills" src="./public/img/icon_slack.png" style = "width: 3rem;">      
                     </div><br>
                 </div>
             </div>
@@ -235,6 +172,23 @@
             <div class = "container">
                 <h1 class = "white">For a Brighter Tomorrow.</h1>
                 <h1 class = "white bold">Projects_</h1><br>
+                <br><br>
+                <div class="item-card">
+                    <img class="item-card_logo" src="/public/img/logo_trainnet.png">
+                    <div class="item-card_container">
+                        <h4 class = "item-card_role">API Developer</h4>
+                        <h2 class="item-card__name">트레인넷</h2>
+                        <p class="item-card__desc">트레인넷은 2021년에 개인 프로젝트로 시작하였으며, 현재는 7명의 팀원과 함께 진행하고 있습니다. 현재 국내 최대 광역/도시철도 정보를 보유하고 있습니다. 광역/도시철도 운행 정보[역 정보, 시간표, 실시간 운행/지연 정보 등]를 인터페이스로 제공할 예정이며, 이외의 정보도 API로 배포할 예정입니다. 더 나아가, 대중교통으로 여행할 수 있는 코스도 안내합니다. 그리고, 교통카드 교통카드 잔액 조회 기능도 지원하고 있습니다.</p>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <img class="item-card_logo" src="/public/img/logo_icon.png">
+                    <div class="item-card_container">
+                        <h4 class = "item-card_role">Developer</h4>
+                        <h2 class="item-card__name">I:Con</h2>
+                        <p class="item-card__desc">I:Con은 아이디어를 실체화하고, 구체화하고, 실현하기 힘든 사람들, 희망이 없고 창업을 마견하게만 생각하는 이들에게, 창업이 어렵지 않다는 희망을 주기 위해 시작된 프로젝트입니다. 창업 아이템을 구체화하고, 상품화할 수 있도록 지원할 수 있는 플랫폼을 제공합니다. 이 프로젝트의 사용자는 아이디어를 공유하는 아이디어 제공자, 공유된 아이디어를 실현을 해 줄 기술자, 그리고 그 아이템을 소비하는 소비자로 이루어져 있습니다. I:Con은 현재 3명의 팀원과 함께 진행하고 있습니다.</p>
+                    </div>
+                </div>
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             </div>
         </div>
