@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Title);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 72px;
+        font-family: TestSohneBreit-Extrafett, Test Söhne Breit;
+        font-weight: 1000;
+      }
+
+      .cls-3 {
+        font-size: 30px;
+        font-family: SpaceMono-Bold, Space Mono;
+        font-weight: 700;
+      }
+    </style>
+    <clipPath id="clip-Title">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Title" class="cls-1">
+    <rect width="1920" height="1080"/>
+    <text id="_2022-2023_PORTFOLIO" data-name="2022-2023 PORTFOLIO" class="cls-2" transform="translate(960 569)"><tspan x="-504.576" y="0">2022-2023 PORTFOLIO</tspan></text>
+    <text id="temporary_portfolio_site" data-name="temporary portfolio site" class="cls-3" transform="translate(960 636)"><tspan x="-220.32" y="0">temporary portfolio site</tspan></text>
+  </g>
+</svg>

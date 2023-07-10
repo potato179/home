@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-_6);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 72px;
+        font-family: TestSohneBreit-Extrafett, Test Söhne Breit;
+                font-weight: 1000;
+
+      }
+    </style>
+    <clipPath id="clip-_6">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="_6" data-name="6" class="cls-1">
+    <rect width="1920" height="1080"/>
+    <text id="BUSINESS" class="cls-2" transform="translate(960 569)"><tspan x="-218.052" y="0">BUSINESS</tspan></text>
+  </g>
+</svg>

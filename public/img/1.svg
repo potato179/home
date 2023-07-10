@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-_1);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 28px;
+        font-family: TestSohneBreit-Fett, Test Söhne Breit;
+        font-weight: 1000;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 24px;
+      }
+
+      .cls-3 {
+        font-family: NotoSansKR-Light, Noto Sans KR;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        font-size: 72px;
+        font-family: NotoSansKR-Black, Noto Sans KR;
+        font-weight: 800;
+      }
+    </style>
+    <clipPath id="clip-_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="_1" data-name="1" class="cls-1">
+    <rect width="1920" height="1080"/>
+    <text id="Experience" class="cls-2" transform="translate(731 293)"><tspan x="-88.746" y="0">Experience</tspan></text>
+    <text id="_2018._11._" data-name="2018. 11. ~" class="cls-3" transform="translate(643 356)"><tspan x="0" y="0">2018. 11. ~</tspan></text>
+    <text id="Full-Stack_Web_Development" data-name="Full-Stack Web Development" class="cls-4" transform="translate(792 356)"><tspan x="0" y="0">Full-Stack Web Development</tspan></text>
+    <text id="_2019._12._" data-name="2019. 12. ~" class="cls-3" transform="translate(643 407)"><tspan x="0" y="0">2019. 12. ~</tspan></text>
+    <text id="Mobile_Phone_Repair" data-name="Mobile Phone Repair" class="cls-4" transform="translate(792 407)"><tspan x="0" y="0">Mobile Phone Repair</tspan></text>
+    <text id="_2020._03._" data-name="2020. 03. ~" class="cls-3" transform="translate(643 458)"><tspan x="0" y="0">2020. 03. ~</tspan></text>
+    <text id="Used_Phone_Dealer" data-name="Used Phone Dealer" class="cls-4" transform="translate(792 458)"><tspan x="0" y="0">Used Phone Dealer</tspan></text>
+    <text id="_2021._03._" data-name="2021. 03. ~" class="cls-3" transform="translate(643 509)"><tspan x="0" y="0">2021. 03. ~</tspan></text>
+    <text id="Operating_Total_Mobile_Solution_FIXKING_" data-name="Operating Total Mobile Solution, ‘FIXKING’" class="cls-4" transform="translate(792 509)"><tspan x="0" y="0">Operating Total Mobile Solution, ‘FIXKING’</tspan></text>
+    <text id="_2021._12._" data-name="2021. 12. ~" class="cls-3" transform="translate(643 560)"><tspan x="0" y="0">2021. 12. ~</tspan></text>
+    <text id="E-commerce_Business" data-name="E-commerce Business" class="cls-4" transform="translate(792 560)"><tspan x="0" y="0">E-commerce Business</tspan></text>
+    <text id="Certificates" class="cls-2" transform="translate(642 668)"><tspan x="0" y="0">Certificates</tspan></text>
+    <text id="Skills" class="cls-2" transform="translate(1326 293)"><tspan x="0" y="0">Skills</tspan></text>
+    <text id="_2020._02." data-name="2020. 02." class="cls-3" transform="translate(642 731)"><tspan x="0" y="0">2020. 02.</tspan></text>
+    <text id="Craftsman_Information_Processing" data-name="Craftsman Information Processing" class="cls-4" transform="translate(792 731)"><tspan x="0" y="0">Craftsman Information Processing</tspan></text>
+    <text id="_2023._07." data-name="2023. 07." class="cls-3" transform="translate(643 782)"><tspan x="0" y="0">2023. 07.</tspan></text>
+    <text id="Driver_s_License_Class_2_Motor_" data-name="Driver’s License (Class 2, Motor)" class="cls-4" transform="translate(792 782)"><tspan x="0" y="0">Driver’s License (Class 2, Motor)</tspan></text>
+    <text id="Programming" class="cls-3" transform="translate(1325 356)"><tspan x="0" y="0">Programming</tspan></text>
+    <text id="C_C_Python" data-name="C, C++, Python" class="cls-4" transform="translate(1509 356)"><tspan x="0" y="0">C, C++, Python</tspan></text>
+    <text id="Front-End" class="cls-3" transform="translate(1325 407)"><tspan x="0" y="0">Front-End</tspan></text>
+    <text id="HTML_CSS_jQuery" data-name="HTML, CSS, jQuery" class="cls-4" transform="translate(1509 407)"><tspan x="0" y="0">HTML, CSS, jQuery</tspan></text>
+    <text id="Back-End" class="cls-3" transform="translate(1325 458)"><tspan x="0" y="0">Back-End</tspan></text>
+    <text id="Node.js_Express.js" data-name="Node.js, Express.js" class="cls-4" transform="translate(1509 458)"><tspan x="0" y="0">Node.js, Express.js</tspan></text>
+    <text id="Database" class="cls-3" transform="translate(1325 509)"><tspan x="0" y="0">Database</tspan></text>
+    <text id="MySQL" class="cls-4" transform="translate(1509 509)"><tspan x="0" y="0">MySQL</tspan></text>
+    <text id="CI_CD" data-name="CI/CD" class="cls-3" transform="translate(1325 560)"><tspan x="0" y="0">CI/CD</tspan></text>
+    <text id="Git_Github" data-name="Git, Github" class="cls-4" transform="translate(1509 560)"><tspan x="0" y="0">Git, Github</tspan></text>
+    <text id="Collaboration" class="cls-3" transform="translate(1325 611)"><tspan x="0" y="0">Collaboration</tspan></text>
+    <text id="Notion_Slack" data-name="Notion, Slack" class="cls-4" transform="translate(1509 611)"><tspan x="0" y="0">Notion, Slack</tspan></text>
+    <text id="Design" class="cls-3" transform="translate(1325 662)"><tspan x="0" y="0">Design</tspan></text>
+    <text id="XD_Premiere_Pro" data-name="XD, Premiere Pro" class="cls-4" transform="translate(1509 662)"><tspan x="0" y="0">XD, Premiere Pro</tspan></text>
+    <text id="OS" class="cls-3" transform="translate(1325 713)"><tspan x="0" y="0">OS</tspan></text>
+    <text id="Ubuntu_Arch_Linux_XNU" data-name="Ubuntu, Arch Linux, XNU" class="cls-4" transform="translate(1509 713)"><tspan x="0" y="0">Ubuntu, Arch Linux, XNU</tspan></text>
+    <text id="Education" class="cls-2" transform="translate(643 890)"><tspan x="0" y="0">Education</tspan></text>
+    <text id="_2022._03._" data-name="2022. 03. ~" class="cls-3" transform="translate(643 953)"><tspan x="0" y="0">2022. 03. ~</tspan></text>
+    <text id="Korea_Digital_Media_High_School_Web_Programming_Major" data-name="Korea Digital Media High School, Web Programming Major" class="cls-4" transform="translate(793 953)"><tspan x="0" y="0">Korea Digital Media High School, Web Programming Major</tspan></text>
+    <text id="Marketing" class="cls-3" transform="translate(1325 764)"><tspan x="0" y="0">Marketing</tspan></text>
+    <text id="CPP_SA_DA_Ads_Management" data-name="CPP, SA, DA Ads Management" class="cls-4" transform="translate(1509 764)"><tspan x="0" y="0">CPP, SA, DA Ads Management</tspan></text>
+    <text id="Soft" class="cls-3" transform="translate(1325 815)"><tspan x="0" y="0">Soft</tspan></text>
+    <text id="Handling_Scheduling" data-name="Handling, Scheduling" class="cls-4" transform="translate(1509 815)"><tspan x="0" y="0">Handling, Scheduling</tspan></text>
+    <text id="Profile" class="cls-2" transform="translate(105 293)"><tspan x="0" y="0">Profile</tspan></text>
+    <text id="홍은표_Hong_Eun-Pyo" data-name="홍은표 | Hong Eun-Pyo" class="cls-3" transform="translate(105 356)"><tspan x="0" y="0">홍은표 | </tspan><tspan y="0">Hong Eun-Pyo</tspan></text>
+    <text id="Birth" class="cls-3" transform="translate(105 407)"><tspan x="0" y="0">Birth</tspan></text>
+    <text id="_2006._09._14." data-name="2006. 09. 14." class="cls-4" transform="translate(289 407)"><tspan x="0" y="0">2006. 09. 14.</tspan></text>
+    <text id="Tel." class="cls-3" transform="translate(106 458)"><tspan x="0" y="0">Tel.</tspan></text>
+    <text id="_82-507-1305-7439" data-name="+82-507-1305-7439" class="cls-4" transform="translate(290 458)"><tspan x="0" y="0">+82-507-1305-7439</tspan></text>
+    <text id="Mobile" class="cls-3" transform="translate(106 509)"><tspan x="0" y="0">Mobile</tspan></text>
+    <text id="_82-10-9972-7439" data-name="+82-10-9972-7439" class="cls-4" transform="translate(290 509)"><tspan x="0" y="0">+82-10-9972-7439</tspan></text>
+    <text id="E-Mail" class="cls-3" transform="translate(106 560)"><tspan x="0" y="0">E-Mail</tspan></text>
+    <text id="hackg179_gmail.com" data-name="hackg179@gmail.com" class="cls-4" transform="translate(290 560)"><tspan x="0" y="0">hackg179@gmail.com</tspan></text>
+    <text id="Instagram" class="cls-3" transform="translate(106 611)"><tspan x="0" y="0">Instagram</tspan></text>
+    <text id="_seoulfixking" data-name="@seoulfixking" class="cls-4" transform="translate(290 611)"><tspan x="0" y="0">@seoulfixking</tspan></text>
+    <text id="Github" class="cls-3" transform="translate(106 662)"><tspan x="0" y="0">Github</tspan></text>
+    <text id="_potato179" data-name="@potato179" class="cls-4" transform="translate(290 662)"><tspan x="0" y="0">@potato179</tspan></text>
+    <text id="Home" class="cls-3" transform="translate(106 713)"><tspan x="0" y="0">Home</tspan></text>
+    <text id="Goyang_Gyeong-gi_Korea" data-name="Goyang, Gyeong-gi, Korea" class="cls-4" transform="translate(290 713)"><tspan x="0" y="0">Goyang, Gyeong-gi, Korea</tspan></text>
+    <text id="Business" class="cls-3" transform="translate(106 764)"><tspan x="0" y="0">Business</tspan></text>
+    <text id="Daejeon_Korea" data-name="Daejeon, Korea" class="cls-4" transform="translate(290 764)"><tspan x="0" y="0">Daejeon, Korea</tspan></text>
+    <text id="Tax_ID" data-name="Tax ID" class="cls-3" transform="translate(105 815)"><tspan x="0" y="0">Tax ID</tspan></text>
+    <text id="_752-06-02760" data-name="752-06-02760" class="cls-4" transform="translate(289 815)"><tspan x="0" y="0">752-06-02760</tspan></text>
+    <text id="This_is_me_" data-name="This is me!" class="cls-5" transform="translate(105 171)"><tspan x="0" y="0">This is me!</tspan></text>
+  </g>
+</svg>

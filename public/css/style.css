@@ -1,0 +1,25 @@
+body {
+    background: black;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+#title{
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    color: white;
+}
+
+#content_tmp{
+    font-family: 'Space Mono', monospace;
+    font-size: 28px;
+    color: white;
+}
